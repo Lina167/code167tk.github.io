@@ -1,0 +1,2 @@
+repeat (auto-fit, minmax(270px, 1fr));
+background-image: url("Image/background.jpg");

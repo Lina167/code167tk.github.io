@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Noto+Sans+Khmer:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;700;800;900&display=swap');
+body{
+	font-family: 'Bokor', cursive;
+
+	font-family: 'Poppins', sans-serif;
+}
+/* MAIN */
+main{
+	color: black;
+	line-height: 2.5;
+	justify-content: center;
+}
+.cnt h2{
+	color: #AAAAAA;
+	font-size: 25px;
+	text-decoration: underline;
+}
+.cnt p{
+	line-height: 2;
+	
+}
+#cn1 img{
+	width: 500px;
+	
+}
+.h2{
+	color: #AAAAAA;
+	font-weight: 700;
+}
+.cnt1{
+	display: flex;
+}
+#cn1{
+	line-height: inherit;
+	font-size: 10px;
+}
+.try{
+	width: 200px;
+	height: 30px;
+	background-color: cadetblue;
+	padding: 4px;
+	text-align: center;
+	color: aliceblue;
+	margin: 3% 0 0 0;
+}
+/* MAIN */

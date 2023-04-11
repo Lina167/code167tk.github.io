@@ -1,0 +1,68 @@
+#course{
+   width: 80%;
+/*   margin: auto;*/
+   text-align: center;
+   padding-top: 100px;
+}
+.row-course{
+   	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	grid-gap: 1rem;
+	margin: 50px 0 20px;
+}
+.row-course a{
+	text-decoration: none;
+	color: #243E63;
+}
+.col{
+	width: 400px;
+	height: 550px;
+    flex-basis: 31%;
+    background: #fffffff;
+    border-radius: 10px;
+    margin: 5% 4% 5%;
+    padding:0;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.course-pic img{
+	width: 400px;
+	height: 250px;
+	border-radius: 10px 10px 0 0;
+}
+.course-text{
+	width: 400px;
+	height: 250px;
+	overflow-x: hidden;
+	scrollbar-width: none;
+}
+.course-text::--webkit-scrollbar{
+	display: none;
+}
+/*
+.lern-more{
+	background-color: #4299E1;
+	height: 50px;
+	align-items: center;
+	border-radius: 0 0 10px 10px;
+}
+.h3{
+	color: #F7FAFC;
+	padding: 10px;
+}
+*/
+
+
+
+
+
+/*
+@media only screen and (min-width: 768px){
+	#course .row-course {
+		flex-direction: row;
+	}
+	#course .row-course:nth-child(even) {
+		flex-direction: row-reverse;
+	}
+}
+*/
